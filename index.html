@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Postloom: personal social media scheduler</title>
+        <meta
+            name="description"
+            content="Postloom is a personal, self-hosted tool that schedules posts and publishes them to its owner's own social media accounts."
+        />
+        <link rel="icon" href="logo.svg" type="image/svg+xml" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="wrap">
+                <a class="logo" href="index.html"
+                    ><img src="logo.svg" alt="" />Postloom</a
+                >
+                <nav aria-label="Main">
+                    <a href="index.html" aria-current="page">Home</a>
+                    <a href="privacy.html">Privacy</a>
+                    <a href="terms.html">Terms</a>
+                    <a href="data-deletion.html">Data deletion</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="wrap">
+            <h1>Plan posts on a calendar. Publish them on time.</h1>
+            <p class="lead">
+                Postloom is a personal, self-hosted social media scheduler built
+                by Muhammad Waris. It runs on the owner's own computer and posts
+                only to the owner's own accounts, channels and pages. It is
+                free, has no ads, and nobody else can sign up.
+            </p>
+
+            <h2>Supported platforms</h2>
+            <ul class="chips">
+                <li>LinkedIn (profile and company pages)</li>
+                <li>YouTube</li>
+                <li>Facebook Pages</li>
+                <li>Instagram (professional accounts)</li>
+                <li>TikTok</li>
+                <li>Threads</li>
+                <li>Bluesky</li>
+            </ul>
+
+            <h2>What it does</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3><span class="step">01</span> Schedule</h3>
+                    <p>
+                        Write a post once, pick the accounts and a time on the
+                        calendar, and adjust the text and settings for each
+                        platform.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3><span class="step">02</span> Publish</h3>
+                    <p>
+                        At the chosen time Postloom uploads the text, photos or
+                        video to each connected account through the platform's
+                        official API.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3><span class="step">03</span> Read stats</h3>
+                    <p>
+                        After publishing it reads the post's own view, like,
+                        comment and share counts, so the owner can see what
+                        worked.
+                    </p>
+                </div>
+            </div>
+
+            <h2>How accounts are connected</h2>
+            <p>
+                Each account is connected with the platform's own sign-in screen
+                (OAuth). Postloom never sees a password. It keeps the access
+                token the platform gives it, encrypted, and uses it only to
+                publish the owner's posts and read their statistics. Access can
+                be removed at any time, in Postloom or in the platform's own
+                settings.
+            </p>
+
+            <h2>Policies</h2>
+            <ul>
+                <li>
+                    <a href="privacy.html">Privacy Policy</a>: what data
+                    Postloom handles, where it is kept and how to remove it.
+                </li>
+                <li>
+                    <a href="terms.html">Terms of Service</a>: the rules for
+                    using Postloom.
+                </li>
+                <li>
+                    <a href="data-deletion.html">Data deletion</a>: how to
+                    disconnect an account and have its data deleted.
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>: how to reach the owner.
+                </li>
+            </ul>
+        </main>
+
+        <footer>
+            <div class="wrap">
+                <span>Postloom, a personal project by Muhammad Waris.</span>
+                <nav aria-label="Footer">
+                    <a href="privacy.html">Privacy</a>
+                    <a href="terms.html">Terms</a>
+                    <a href="data-deletion.html">Data deletion</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
